@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "330440029500",
+    "project_id": "sitiosturisticos-d68a6",
+    "storage_bucket": "sitiosturisticos-d68a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330440029500:android:96ba30e69d7561b6769a39",
+        "android_client_info": {
+          "package_name": "com.example.flutter_sitios_turisticos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwTHSIdxpZLpJTv_2grcHvkIFP6A6bzOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
