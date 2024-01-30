@@ -12,7 +12,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -101,6 +101,7 @@ class SplashScreen extends StatelessWidget {
             FlutterLogo(size: 100),
             SizedBox(height: 20),
             Text('Mateo Congo', style: TextStyle(fontSize: 20)),
+            Text('Dilan Flores', style: TextStyle(fontSize: 20)),
             Text('Nicole Motoche', style: TextStyle(fontSize: 20)),
             Text('Erick Palomo', style: TextStyle(fontSize: 20)),
           ],
@@ -135,7 +136,7 @@ class _SplashScreenWrapperState extends State<SplashScreenWrapper> {
 
   @override
   Widget build(BuildContext context) {
-    return SplashScreen();
+    return const SplashScreen();
   }
 }
 

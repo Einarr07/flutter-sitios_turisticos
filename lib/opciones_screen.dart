@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'registro_sitio_turistico_screen.dart'; // Asegúrate de ajustar la ruta según la ubicación de tu pantalla de registro
+import 'registro_sitio_turistico_screen.dart';
 
 class OpcionesScreen extends StatelessWidget {
   const OpcionesScreen({Key? key}) : super(key: key);
@@ -14,6 +14,7 @@ class OpcionesScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             ElevatedButton(
               onPressed: () {
@@ -25,7 +26,15 @@ class OpcionesScreen extends StatelessWidget {
                   ),
                 );
               },
-              child: const Text('Registra un sitio turístico'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.blue, // Reemplaza primary por backgroundColor
+              ),
+              child: const Text(
+                'Registra un sitio turístico',
+                style: TextStyle(
+                  fontSize: 18,
+                ),
+              ),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
@@ -33,7 +42,15 @@ class OpcionesScreen extends StatelessWidget {
                 // Lógica para ver sitios turísticos
                 // Puedes navegar a la pantalla de visualización de sitios turísticos o realizar otras acciones.
               },
-              child: const Text('Ver sitios turísticos'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.green, // Reemplaza primary por backgroundColor
+              ),
+              child: const Text(
+                'Ver sitios turísticos',
+                style: TextStyle(
+                  fontSize: 18,
+                ),
+              ),
             ),
           ],
         ),

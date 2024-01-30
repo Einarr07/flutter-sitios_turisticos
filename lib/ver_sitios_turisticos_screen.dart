@@ -19,9 +19,9 @@ class VerSitiosTuristicosScreen extends StatelessWidget {
       stream: FirebaseFirestore.instance.collection('sitios_turisticos').snapshots(),
       builder: (context, AsyncSnapshot<QuerySnapshot<Map<String, dynamic>>> snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return CircularProgressIndicator();
+          return const Center(child: CircularProgressIndicator());
         } else if (!snapshot.hasData || snapshot.data?.docs.isEmpty == true) {
-          return Center(
+          return const Center(
             child: Text('No hay datos disponibles'),
           );
         }
@@ -40,9 +40,26 @@ class VerSitiosTuristicosScreen extends StatelessWidget {
           itemBuilder: (context, index) {
             var sitio = sitios?[index];
             return ListTile(
-              title: Text(sitio?.nombre ?? ''),
-              subtitle: Text(sitio?.descripcion ?? ''),
-              leading: Image.network(sitio?.imagenUrl ?? ''),
+              title: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Text(
+                    sitio?.nombre ?? '',
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  SizedBox(height: 8),
+                  Image.network(sitio?.imagenUrl ?? '', width: double.infinity),
+                  SizedBox(height: 8),
+                  Text(
+                    sitio?.descripcion ?? '',
+                    textAlign: TextAlign.center,
+                  ),
+                ],
+              ),
             );
           },
         );
