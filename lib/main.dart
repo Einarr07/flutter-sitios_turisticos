@@ -58,7 +58,7 @@ class MyHomePage extends StatelessWidget {
             Image.asset(
               'assets/turismo.webp',
               height: 200,
-              width: 200,
+              width: 400,
               fit: BoxFit.cover,
             ),
             const SizedBox(height: 20),
