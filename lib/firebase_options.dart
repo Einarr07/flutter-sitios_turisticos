@@ -12,7 +12,6 @@ import 'package:flutter/foundation.dart'
 /// // ...
 /// await Firebase.initializeApp(
 ///   options: DefaultFirebaseOptions.currentPlatform,
-/// );
 /// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
@@ -44,38 +43,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBOHH-5xpD2AaKsjOQFb6KpfGaBukgDsYQ',
-    appId: '1:330440029500:web:1d379b157dc17e0a769a39',
-    messagingSenderId: '330440029500',
-    projectId: 'sitiosturisticos-d68a6',
-    authDomain: 'sitiosturisticos-d68a6.firebaseapp.com',
-    storageBucket: 'sitiosturisticos-d68a6.appspot.com',
-    measurementId: 'G-2S4N8YCYRN',
+    apiKey: 'your_web_api_key',
+    appId: 'your_web_app_id',
+    messagingSenderId: 'your_web_messaging_sender_id',
+    projectId: 'your_web_project_id',
+    authDomain: 'your_web_auth_domain',
+    storageBucket: 'your_web_storage_bucket',
+    measurementId: 'your_web_measurement_id',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBwTHSIdxpZLpJTv_2grcHvkIFP6A6bzOY',
-    appId: '1:330440029500:android:96ba30e69d7561b6769a39',
-    messagingSenderId: '330440029500',
-    projectId: 'sitiosturisticos-d68a6',
-    storageBucket: 'sitiosturisticos-d68a6.appspot.com',
+    apiKey: 'your_android_api_key',
+    appId: 'your_android_app_id',
+    messagingSenderId: 'your_android_messaging_sender_id',
+    projectId: 'your_android_project_id',
+    storageBucket: 'your_android_storage_bucket',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCRfdSToDqMGqqHDIz7eUuolvtR8Plngpg',
-    appId: '1:330440029500:ios:a0a4f5e1b18eb7bc769a39',
-    messagingSenderId: '330440029500',
-    projectId: 'sitiosturisticos-d68a6',
-    storageBucket: 'sitiosturisticos-d68a6.appspot.com',
-    iosBundleId: 'com.example.flutterSitiosTuristicos',
+    apiKey: 'your_ios_api_key',
+    appId: 'your_ios_app_id',
+    messagingSenderId: 'your_ios_messaging_sender_id',
+    projectId: 'your_ios_project_id',
+    storageBucket: 'your_ios_storage_bucket',
+    iosBundleId: 'your_ios_bundle_id',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCRfdSToDqMGqqHDIz7eUuolvtR8Plngpg',
-    appId: '1:330440029500:ios:631b380f2075b2a4769a39',
-    messagingSenderId: '330440029500',
-    projectId: 'sitiosturisticos-d68a6',
-    storageBucket: 'sitiosturisticos-d68a6.appspot.com',
-    iosBundleId: 'com.example.flutterSitiosTuristicos.RunnerTests',
+    apiKey: 'your_macos_api_key',
+    appId: 'your_macos_app_id',
+    messagingSenderId: 'your_macos_messaging_sender_id',
+    projectId: 'your_macos_project_id',
+    storageBucket: 'your_macos_storage_bucket',
+    iosBundleId: 'your_macos_bundle_id',
   );
 }
