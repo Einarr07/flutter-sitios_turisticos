@@ -2,8 +2,7 @@
 
 Bienvenido a **flutter_sitios_turisticos**, una aplicación que te permite explorar, registrar y gestionar sitios turísticos de manera fácil y rápida.
 
-<u>NOTA: La apk se encuentra dentro de la carpeta assets</u>
-
+`NOTA: La apk se encuentra dentro de la carpeta assets`
 
 ## Splash Screen
 
