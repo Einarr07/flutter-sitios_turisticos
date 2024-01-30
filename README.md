@@ -32,7 +32,7 @@ Al iniciar sesión, encontrarás esta vista para registrar un nuevo sitio turís
 
 ![Registro de Sitio Turístico](https://github.com/Einarr07/flutter-sitios_turisticos/assets/96399138/6d381e63-e6ac-4ad4-b97b-341eb6a0ca48)
 
-## Registro de Vehículo
+## Registro de un sitio turístico
 
 Esta página te permite registrar un vehículo. Al ingresar una imagen, solo debes colocar la URL de esta.
 
