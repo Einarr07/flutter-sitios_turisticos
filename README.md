@@ -42,6 +42,8 @@ Esta página te permite registrar un vehículo. Al ingresar una imagen, solo deb
 
 ## Sitios Turísticos Registrados
 
-Aquí puedes ver todos los sitios turísticos registrados.
+Aquí puedes ver todos los sitios turísticos registrados. 
 
 ![Sitios Turísticos Registrados](https://github.com/Einarr07/flutter-sitios_turisticos/assets/96399138/b3ee344e-28dc-4a65-861e-40b8f7326d67)
+
+[aquí](https://drive.google.com/drive/folders/10zT9RwDqEcHw0_5mDcFqOnwiko7HuDay)
